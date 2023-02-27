@@ -1,0 +1,112 @@
+    /* .container {
+      flex: 1 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      background-color: blue;
+      
+    }
+
+    .header {
+      background-color: rgb(52, 209, 52);
+background-image: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 20px;
+      background: #fafafa;
+    
+    } */
+
+    /* .header_inner {
+      background-color: red;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+      width: 100vw;
+      max-width: 100%;
+    } */
+    body {
+      font-size: 1rem;
+      line-height: 1.54;
+      text-rendering: optimizeLegibility;
+      font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
+      -webkit-text-size-adjust: 100%;
+      color: #222;
+      background: #2b2f33;
+    }
+
+    .logo {
+      display: flex;
+      text-decoration: none;
+      font-weight: bold;
+      font-display: auto;
+      margin-left: 10vw;
+      font-family: monospace, monospace;
+      color: #b5aea5;
+    }
+
+    .logo_mark {
+      margin-right: 5px;
+    }
+
+    .logo_text {
+      font-size: 1.125rem;
+      white-space: nowrap;
+    }
+
+    .logo_cursor {
+      display: inline-block;
+      width: 10px;
+      height: 1rem;
+      background: #2d5e7e;
+      margin-left: 2px;
+      border-radius: 1px;
+      animation: blinker 2s infinite;
+
+    }
+
+    @keyframes blinker {
+      50% {
+        opacity: 0;
+      }
+    }
+  
+    .containers{
+        margin: 10%;
+       
+    }
+    .content {
+      display: flex;
+      justify-content: center;
+    }
+    .content,.greetings,.logo{
+        align-items: center;
+
+    }
+    .greetings{
+        font-weight: bold;
+        font-size: 2.625rem;
+        margin: 0.67em 0;
+        color: #b5aea5;
+  
+      }
+    .social_links a{
+     
+        color: #2d5c7a;
+    }
+
+    footer{
+        display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5%;
+     text-align: center;
+      color: rgb(168, 160, 149);
+      font-size: smaller;
+
+    }
+
