@@ -44,7 +44,7 @@ background-image: none;
       display: flex;
       text-decoration: none;
       font-weight: bold;
-      margin-left: 10vw;
+      margin-left: 5vw;
       font-display: auto;
       font-family: monospace, monospace;
       color: #b5aea5;
@@ -83,6 +83,7 @@ background-image: none;
     .content {
       display: flex;
       justify-content: center;
+      text-align: center;
     }
     .content,.greetings,.logo{
         align-items: center;
