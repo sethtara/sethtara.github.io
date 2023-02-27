@@ -35,16 +35,17 @@ background-image: none;
       text-rendering: optimizeLegibility;
       font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
       -webkit-text-size-adjust: 100%;
-      color: #222;
       background: #2b2f33;
     }
-
+    .justify-content-end{
+        margin-right: 5vw;
+    }
     .logo {
       display: flex;
       text-decoration: none;
       font-weight: bold;
-      font-display: auto;
       margin-left: 10vw;
+      font-display: auto;
       font-family: monospace, monospace;
       color: #b5aea5;
     }
@@ -95,18 +96,15 @@ background-image: none;
   
       }
     .social_links a{
-     
-        color: #2d5c7a;
+        color: #a9a9b3;
     }
 
-    footer{
-        display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 5%;
+  .footer{
+      
+      
      text-align: center;
       color: rgb(168, 160, 149);
       font-size: smaller;
 
-    }
+    } 
 
